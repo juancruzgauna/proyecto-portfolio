@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Juan Cruz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ico.png" type="image/png">
+</head>
+<body>
+    <video muted autoplay loop>
+        <source src="galaxia1.mp4"
+        type="video/mp4">
+    </video>
+    <!--<div class="capa"></div>-->
+    <header>
+        <div class="logo">
+            <h1>Juan Cruz</h1>
+        </div>
+            <nav class="list">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p><b>HOLA!</b> Mi nombre es Juan Cruz. Comencé en el mundo de la tecnología en el año 2023 cuando decidí ingresar
+                a la UTN donde aprendí C++, C# .NET y SQL. Me apasiona la programación. También soy Farmacéutico, profesión que ejerzo desde el año 2021.
+                En mis tiempos libres me gusta hacer deporte y jugar videojuegos.
+            </p>
+            <img class="foto-perfil" src="juan-cruz.jpg" alt="foto-perfil">
+        </div>
+        <!--<video muted autoplay loop>
+            <source src="galaxia1.mp4"
+            type="video/mp4">
+        </video>
+        <div class="capa"></div>-->
+    </section>
+
+    <section class="seccion" id="proyectos">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="container-proyectos">
+                <div class="tarjeta-proyecto">
+                    <h3>CLUTCH - VIDEOJUEGO DE CONSOLA</h3>
+                    <a href="https://www.linkedin.com/posts/juancruzgauna_trabajoenequipo-c-activity-7136135436531347456-BNXH?utm_source=share&utm_medium=member_desktop">
+                        <img class="clutch-img" src="clutch-img.jpg" alt="CLUTCH-IMG">
+                    </a>
+                    <img class="img-proyectos" src="https://cdn-icons-png.freepik.com/256/6132/6132222.png?uid=R129950613&ga=GA1.1.1110557315.1726703969&semt=ais_hybrid" alt="C++">
+                </div>
+                <div class="tarjeta-proyecto">
+                    <h3>APP ESCRITORIO WINFORM - CATÁLOGO ARTÍCULOS</h3>
+                    <a href="https://github.com/marinacchavez89/tp-winform-equipo-20B">
+                        <img class="app-img" src="tp2prog3.jpg" alt="APP ESCRITORIO">
+                    </a>
+                    <img class="img-proyectos" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias">
+        <div class="container">
+            <h2>Tecnologías</h2>
+            <div class="container-tecnologias">
+                <div class="tecnologias">
+                    <img class="img-tecnologias" src="https://cdn-icons-png.freepik.com/256/6132/6132222.png?uid=R129950613&ga=GA1.1.1110557315.1726703969&semt=ais_hybrid" alt="C++">
+                    <img class="img-tecnologias" src="https://cdn-icons-png.freepik.com/256/6132/6132221.png?uid=R129950613&ga=GA1.1.1110557315.1726703969&semt=ais_hybrid" alt="C#">
+                    <img class="img-tecnologias" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".NET">
+                    <img class="img-tecnologias" src="https://cdn-icons-png.flaticon.com/128/4492/4492311.png" alt="SQL">
+                    <img class="img-tecnologias" src="https://cdn-icons-png.flaticon.com/128/4926/4926625.png" alt="GitHub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="mailto:juancruzgauna97@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container-footer">
+            <a href="https://www.linkedin.com/in/juancruzgauna/">
+                <img class="img-footer" src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="LinkedIn" title="Perfil LinkedIn">
+            </a>
+            <a href="https://github.com/juancruzgauna">
+                <img class="img-footer" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub" title="Perfil GitHub">
+            </a>
+            <a href="mailto:juancruzgauna97@gmail.com">
+                <img class="img-footer" src="https://cdn-icons-png.flaticon.com/128/17698/17698077.png" alt="Email" title="Enviar un email">
+            </a>
+            <p>&copy; 2024 Juan Cruz Gauna. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
